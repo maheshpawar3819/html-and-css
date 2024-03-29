@@ -1,0 +1,24 @@
+/* pseudo-class work with div tag */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    background-color: orange;
+    padding: 50px;
+    text-align: center;
+    font-size: 45px;
+    color: white;
+    border: 2px solid black;
+}
+
+div:hover{
+    background-color: maroon;
+    color: lightskyblue;
+    letter-spacing: 50px;
+    text-transform: uppercase;
+    border: 2px solid green;
+}

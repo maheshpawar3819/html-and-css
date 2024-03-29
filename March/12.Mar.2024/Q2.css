@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    height: 300px;
+    width: auto;
+    transition: .4s linear;
+    cursor: pointer;
+    position: relative;
+    left: 30%;
+}
+
+img:hover{
+   
+    height: 600px;
+}

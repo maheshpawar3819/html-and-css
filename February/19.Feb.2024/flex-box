@@ -1,0 +1,56 @@
+Flexbox, or the Flexible Box Layout, is a layout model in CSS that allows you to design complex layouts more efficiently and predictably. Flexbox is designed for one-dimensional layouts, either in a row or a column. Here's a detailed explanation of the various properties in Flexbox:
+
+### Container Properties:
+
+1. **display: flex;**
+   - Defines a flex container, turning its children into flex items.
+   - Values: `flex` (enables flex container), `inline-flex` (enables inline flex container).
+
+2. **flex-direction: row | row-reverse | column | column-reverse;**
+   - Defines the main axis direction.
+   - Values: `row` (default, left to right), `row-reverse` (right to left), `column` (top to bottom), `column-reverse` (bottom to top).
+
+3. **flex-wrap: nowrap | wrap | wrap-reverse;**
+   - Specifies whether flex items should wrap onto multiple lines.
+   - Values: `nowrap` (default, all items on one line), `wrap` (items wrap onto multiple lines), `wrap-reverse` (items wrap in reverse order).
+
+4. **flex-flow: <flex-direction> <flex-wrap>;**
+   - Shorthand for `flex-direction` and `flex-wrap`.
+
+5. **justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;**
+   - Aligns flex items along the main axis.
+   - Values: `flex-start` (default), `flex-end`, `center`, `space-between`, `space-around`, `space-evenly`.
+
+6. **align-items: flex-start | flex-end | center | baseline | stretch;**
+   - Aligns flex items along the cross axis.
+   - Values: `flex-start`, `flex-end`, `center`, `baseline`, `stretch` (default).
+
+7. **align-content: flex-start | flex-end | center | space-between | space-around | stretch;**
+   - Aligns multiple lines along the cross axis.
+   - Values: `flex-start`, `flex-end`, `center`, `space-between`, `space-around`, `stretch` (default).
+
+### Item Properties:
+
+1. **order: <integer>;**
+   - Specifies the order of a flex item.
+   - Default: 0.
+
+2. **flex-grow: <number>;**
+   - Determines how much a flex item will grow relative to the rest of the flex items.
+   - Default: 0.
+
+3. **flex-shrink: <number>;**
+   - Determines how much a flex item will shrink relative to the rest of the flex items.
+   - Default: 1.
+
+4. **flex-basis: <length> | auto;**
+   - Defines the initial main size of a flex item.
+   - Default: `auto`.
+
+5. **flex: none | [ <flex-grow> <flex-shrink> <flex-basis> ];**
+   - Shorthand for `flex-grow`, `flex-shrink`, and `flex-basis`.
+
+6. **align-self: auto | flex-start | flex-end | center | baseline | stretch;**
+   - Allows the default alignment to be overridden for individual flex items.
+
+These properties work together to create flexible and responsive layouts. By adjusting these properties, you can control the size, order, and alignment of items within a flex container.

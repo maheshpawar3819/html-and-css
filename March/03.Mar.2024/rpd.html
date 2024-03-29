@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      .column {
+        width: 100%;
+        box-sizing: border-box;
+        padding: 10px;
+        float: left;
+      }
+
+      @media screen and (min-width: 1200px) {
+        .column {
+          width: 33.33%;
+        }
+      }
+
+      @media screen and (min-width: 768px) and (max-width: 1199px) {
+        .column {
+          width: 50%;
+        }
+      }
+
+      @media screen and (max-width: 767px) {
+        .column {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="column">Content 1</div>
+    <div class="column">Content 2</div>
+    <div class="column">Content 3</div>
+  </body>
+</html>

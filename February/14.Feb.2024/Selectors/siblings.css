@@ -1,0 +1,16 @@
+/* Sibling Selector */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div~p {
+    background-color: yellowgreen;
+    color: rebeccapurple;
+}
+
+h1~p {
+    background-color: brown;
+    color: wheat;
+}

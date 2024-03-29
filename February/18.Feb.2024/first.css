@@ -1,0 +1,54 @@
+*main{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;
+    flex-flow:row;
+    margin: 20px;
+    height: 700px;
+    background-color: lightblue;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+#first{
+    background-color: darkblue;
+    height: 100px;
+    width: 300px;
+}
+
+#second{
+    background-color: darkgoldenrod;
+    height: 100px;
+    width: 300px;
+    
+}
+
+#third{
+    background-color: darkorchid;
+    height: 100px;
+    width: 300px;
+}
+
+#forth{
+    background-color: darkred;
+    height: 100px;
+    width: 300px;
+}
+
+#fifth{
+    background-color: darkolivegreen;
+    height: 100px;
+    width: 300px;
+}
+
+#sixth{
+    background-color: violet;
+    height: 100px;
+    width: 300px;
+}
+
+
+

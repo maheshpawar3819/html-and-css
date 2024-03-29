@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>  
+  <header>
+    <h1 style="text-align: center;">Personal Details</h1>
+  </header>
+<form>
+  <label for="name">Name:</label>
+  <input type="text" name="name" id="name" placeholder="Enter the full name" required/>
+  <br/><br/>
+  <label for="email">Email:</label>
+  <input type="email" name="email" id="email" placeholder="Enter the Email" required/>
+  <br/><br/>
+  <label for="contact">Contact No</label>
+  <input type="number" name="number" id="contact" required/>
+  <br/><br/>
+  <label>Gender:</label>
+  <label for="male">Male</label>
+  <input type="radio" name="gender" id="male" required/>
+  <label for="female">Female</label>
+  <input type="radio" name="gender" id="female" required/>
+  <br/><br/>
+  <label>Date of proposed outing:</label>
+  <input type="date" name="date" required/>
+  <br/><br/>
+  <label>Check all that apply to you:</label>
+  <br/>
+  <input type="checkbox" name="check1" id="check1"/>
+  <label for="check1"> I have tattoos and/or piercings </label>
+  <br/>
+  <input type="checkbox" name="check2" id="check2"/>
+  <label for="check2"> I am more than 2 years older than my daughter</label>
+  <br/>
+  <input type="checkbox" name="check3" id="check3"/>
+  <label for="check3"> I own a panel van or Ferrari </label>
+  <br/>
+  <input type="checkbox" name="check4" id="check4"/>
+  <label for="check4"> I work full-time  </label>
+  <br/>
+  <input type="checkbox" name="check5" id="check5"/>
+  <label for="check5"> My parents are rich   </label>
+  <br/>
+  <input type="checkbox" name="check6" id="check6"/>
+  <label for="check6"> Is the date at a private/public location </label>
+  <br/><br/>
+  <label for="education">Education Level:</label>
+  <select id="education" name="education">
+    <option value="12th Pass">12th Pass</option>
+    <option value="Graduation">Graduation</option>
+    <option value="Post Graduation">Post Graduation</option>
+  </select>
+  <br/><br/>
+  <label>Why do want to date my daughter:</label>
+  <br/>
+  <textarea name="essay" maxlength="50" required></textarea>
+  <br/><br/>
+  <label for="referance">Please provide 1 contact point for your reference:</label>
+  <input type="text" name="referance" id="referance" required/>
+  <br/><br/>
+  <label for="statement">Upload Bank Statement:</label>
+  <input type="file" name="bank" accept="application/pdf" id="statement" required/>
+  <br/><br/>
+  <button>
+    Submit
+  </button>
+  
+</form>
+</body>
+
+</html>

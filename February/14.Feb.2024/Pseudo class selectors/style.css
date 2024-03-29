@@ -1,0 +1,16 @@
+/* Pseudo-classes can be combined with HTML classes:
+
+When you hover over the link in the example, it will change color: */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* access the html classes */
+a.highlight:hover{
+    font-size: 50px;
+    color: rgba(169, 111, 19, 0.799);
+    font-family: Arial, Helvetica, sans-serif;
+}
